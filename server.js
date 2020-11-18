@@ -36,6 +36,13 @@ app.post("/register", function (req, res) {
   const ie_suppliers_constructor = req.body.ie_suppliers_constructor;
   const ie_post_constructor = req.body.ie_post_constructor;
   const ie_estimate_constructor = req.body.ie_estimate_constructor;
+
+  // ICI
+  
+  // const addLineSupplConst2 = req.body.addLineSupplConst2;
+  // const addLinePostConst2 = req.body.addLinePostConst2;
+  // const addLineEstConst2 = req.body.addLineEstConst2;
+
   //Recapitulatif technical requete//
   const ie_suppliers_technical = req.body.ie_suppliers_technical;
   const ie_post_technical = req.body.ie_post_technical;
@@ -88,7 +95,15 @@ app.post("/register", function (req, res) {
     ie_suppliers_constructor: ie_suppliers_constructor,
     ie_post_constructor: ie_post_constructor,
     ie_estimate_constructor: ie_estimate_constructor,
-    //Recapitulatif technical//
+
+    // ICI AUSSI
+
+    // addLineSupplConst2: addLineSupplConst2,
+    // addLinePostConst2: addLinePostConst2,
+    // addLineEstConst2: addLineEstConst2,
+    
+
+        //Recapitulatif technical//
     ie_suppliers_technical: ie_suppliers_technical,
     ie_post_technical: ie_post_technical,
     ie_estimate_technical: ie_estimate_technical,
