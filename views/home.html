@@ -86,7 +86,7 @@
                             </div>
                         </div>
                         <div class="contener_form_infoprojet" id="contener_form_infoprojet-Id">
-                            <table class="table-center resultaPlusContructor table table-bordered ">
+                            <table class="table-center resultaPlusConstructor table table-bordered ">
                                 <tr>
                                     <th></th>
                                     <th>Nature / Depense</th>
@@ -118,77 +118,89 @@
                                         <input type="checkbox" id="ie_conserve_constructor"
                                             name="ie_conserve_constructor" class="input-full"
                                             value="constructorTcheck" />
-                                        <input type="button" class="addContructor" value="Ajouter une ligne"
-                                            id="boutonajouterUneLigneContructor" disabled>
+                                        <input type="button" class="addConstructor" value="Ajouter une ligne"
+                                            id="boutonajouterUneLigneConstructor" disabled>
                                     </td>
                                 </tr>
-                                <tr style="display: none;" class="addContructor2" >
+                                <!-- line add constructor Hide/Show -->
+                                <tr style="display: none;" class="addConstructor2">
                                     <td class='table-center_td'>
                                         <label></label>
                                     </td>
-                                    <td class='table-center_td'><input placeholder="Fournisseur" minlength="1" maxlength="20" type="text" >
+                                    <td class='table-center_td'><input placeholder="Fournisseur" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineSupplConst2">
                                     </td>
-                                    <td class='table-center_td'><input placeholder="Construction, Bâtiment" minlength="1" maxlength="20" type="text" >   
+                                    <td class='table-center_td'><input placeholder="Construction, Bâtiment"
+                                            minlength="1" maxlength="20" type="text" class="input-full"
+                                            id="addLinePostConst2">
                                     </td>
-                                    <td class='table-center_td'><input placeholder="Estimation XPF" minlength="1" maxlength="20" type="text" >   
+                                    <td class='table-center_td'><input placeholder="Estimation XPF" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineEstConst2">
                                     </td>
                                     <td>
-                                        <input type="button"  value="Ajouter une ligne"
-                                            id="boutonajouterUneLigneContructor2">
-                                    <input type="button" value="Supprimer" id="boutonSuppLigneConstructor2">
-                                    <input type='checkbox' name='select'>
-                                    
+                                        <input type="button" value="Ajouter une ligne"
+                                            id="boutonajouterUneLigneConstructor2">
+                                        <input type="button" value="Supprimer" id="boutonSuppLigneConstructor2">
                                     </td>
-
                                 </tr>
-                                <tr style="display: none;" class="addContructor3">
+                                <tr style="display: none;" class="addConstructor3">
                                     <td class='table-center_td'>
                                         <label></label>
                                     </td>
-                                    <td class='table-center_td'>
-
+                                    <td class='table-center_td'><input placeholder="Fournisseur" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineSupplConst3"
+                                            name='addLineSupplConst3'>
                                     </td>
-                                    <td class='table-center_td'>   
+                                    <td class='table-center_td'><input placeholder="Construction, Bâtiment"
+                                            minlength="1" maxlength="20" type="text" class="input-full"
+                                            id="addLinePostConst3" name='addLinePostConst3'>
                                     </td>
-                                    <td class='table-center_td'>   
+                                    <td class='table-center_td'><input placeholder="Estimation XPF" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineEstConst3"
+                                            name='addLineEstConst3'>
                                     </td>
-                                    <td><input type="button"  value="Ajouter une ligne"
-                                    id="boutonajouterUneLigneContructor3">
-                                    <input type="button" value="Supprimer" id="boutonSuppLigneConstructor3">
-                                    <input type='checkbox' name='select'></td>
+                                    <td><input type="button" value="Ajouter une ligne"
+                                            id="boutonajouterUneLigneConstructor3">
+                                        <input type="button" value="Supprimer" id="boutonSuppLigneConstructor3">
                                 </tr>
-                                <tr style="display: none;" class="addContructor4">
+                                <tr style="display: none;" class="addConstructor4">
                                     <td class='table-center_td'>
                                         <label></label>
                                     </td>
-                                    <td class='table-center_td'>
-
+                                    <td class='table-center_td'><input placeholder="Fournisseur" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineSupplConst4"
+                                            name='addLineSupplConst4'>
                                     </td>
-                                    <td class='table-center_td'>   
+                                    <td class='table-center_td'><input placeholder="Construction, Bâtiment"
+                                            minlength="1" maxlength="20" type="text" class="input-full"
+                                            id="addLinePostConst4" name='addLinePostConst4'>
                                     </td>
-                                    <td class='table-center_td'>   
-
+                                    <td class='table-center_td'><input placeholder="Estimation XPF" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineEstConst4"
+                                            name='addLineEstConst4'>
                                     </td>
-                                     <td><input type="button"  value="Ajouter une ligne"
-                                    id="boutonajouterUneLigneContructor4">
-                                    <input type="button" value="Supprimer" id="boutonSuppLigneConstructor4">
-                                    <input type='checkbox' name='select'></td>
+                                    <td><input type="button" value="Ajouter une ligne"
+                                            id="boutonajouterUneLigneConstructor4">
+                                        <input type="button" value="Supprimer" id="boutonSuppLigneConstructor4">
                                 </tr>
-                                <tr style="display: none;" class="addContructor5">
+                                <tr style="display: none;" class="addConstructor5">
                                     <td class='table-center_td'>
                                         <label></label>
                                     </td>
-                                    <td class='table-center_td'>
-
+                                    <td class='table-center_td'><input placeholder="Fournisseur" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineSupplConst5"
+                                            name='addLineSupplConst5'>
                                     </td>
-                                    <td class='table-center_td'>   
+                                    <td class='table-center_td'><input placeholder="Construction, Bâtiment"
+                                            minlength="1" maxlength="20" type="text" class="input-full"
+                                            id="addLinePostConst5" name='addLinePostConst5'>
                                     </td>
-                                    <td class='table-center_td'>   
-
+                                    <td class='table-center_td'><input placeholder="Estimation XPF" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineEstConst5"
+                                            name='addLineEstConst5'>
                                     </td>
                                     <td>
-                                    <input type="button" value="Supprimer" id="boutonSuppLigneConstructor5">
-                                    <input type='checkbox' name='select'></td>
+                                        <input type="button" value="Supprimer" id="boutonSuppLigneConstructor5">
                                 </tr>
 
                             </table>
@@ -226,7 +238,88 @@
                                             id="boutonajouterUneLigneTechnical" disabled>
                                     </td>
                                 </tr>
+                                <!-- line add Technical Hide/Show -->
+                                <tr style="display: none;" class="addTechnical2">
+                                    <td class='table-center_td'>
+                                        <label></label>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Fournisseur" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineSupplTech2">
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Matériel Technique" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLinePostTech2">
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Estimation XPF" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineEstTech2">
+                                    </td>
+                                    <td>
+                                        <input type="button" value="Ajouter une ligne"
+                                            id="boutonajouterUneLigneTechnical2">
+                                        <input type="button" value="Supprimer" id="boutonSuppLigneTechnical2">
+                                    </td>
+                                </tr>
+                                <tr style="display: none;" class="addTechnical3">
+                                    <td class='table-center_td'>
+                                        <label></label>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Fournisseur" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineSupplTech3"
+                                            name='addLineSupplTech3'>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Matériel Technique" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLinePostTech3"
+                                            name='addLinePostTech3'>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Estimation XPF" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineEstTech3"
+                                            name='addLineEstTech3'>
+                                    </td>
+                                    <td><input type="button" value="Ajouter une ligne"
+                                            id="boutonajouterUneLigneTechnical3">
+                                        <input type="button" value="Supprimer" id="boutonSuppLigneTechnical3">
+                                </tr>
+                                <tr style="display: none;" class="addTechnical4">
+                                    <td class='table-center_td'>
+                                        <label></label>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Fournisseur" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineSupplTech4"
+                                            name='addLineSupplTech4'>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Matériel Technique" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLinePostTech4"
+                                            name='addLinePostTech4'>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Estimation XPF" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineEstTech4"
+                                            name='addLineEstTech4'>
+                                    </td>
+                                    <td><input type="button" value="Ajouter une ligne"
+                                            id="boutonajouterUneLigneTechnical4">
+                                        <input type="button" value="Supprimer" id="boutonSuppLigneTechnical4">
+                                </tr>
+                                <tr style="display: none;" class="addTechnical5">
+                                    <td class='table-center_td'>
+                                        <label></label>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Fournisseur" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineSupplTech5"
+                                            name='addLineSupplTech5'>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Matériel Technique" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLinePostTech5"
+                                            name='addLinePostTech5'>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Estimation XPF" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineEstTech5"
+                                            name='addLineEstTech5'>
+                                    </td>
+                                    <td>
+                                        <input type="button" value="Supprimer" id="boutonSuppLigneTechnical5">
+                                </tr>
                             </table>
+
+
                             <table class="table-center resultaPlusWork table table-bordered">
                                 <tr>
                                     <th></th>
@@ -250,7 +343,8 @@
                                     </td>
                                     <td class="table-center_td"><input placeholder="Estimation XPF" type="text"
                                             id="ie_estimate_work" minlength="1" maxlength="20" name="ie_estimate_work"
-                                            required autocomplete="off" class="input-full desableWork txt input-mini" disabled />
+                                            required autocomplete="off" class="input-full desableWork txt input-mini"
+                                            disabled />
                                     </td>
                                     <td class="table-center_td">
                                         <input type="checkbox" id="ie_conserve_works" name="ie_conserve_works"
@@ -258,6 +352,84 @@
                                         <input type="button" class="addWork" value="Ajouter une ligne"
                                             id="boutonajouterUneLigneWork" disabled>
                                     </td>
+                                    <!-- line add Works Hide/Show -->
+
+                                <tr style="display: none;" class="addWork2">
+                                    <td class='table-center_td'>
+                                        <label></label>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Fournisseur" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineSupplWork2">
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Travaux et Aménagements"
+                                            minlength="1" maxlength="20" type="text" class="input-full"
+                                            id="addLinePostWork2">
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Estimation XPF" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineEstWork2">
+                                    </td>
+                                    <td>
+                                        <input type="button" value="Ajouter une ligne" id="boutonajouterUneLigneWork2">
+                                        <input type="button" value="Supprimer" id="boutonSuppLigneWork2">
+                                    </td>
+                                </tr>
+                                <tr style="display: none;" class="addWork3">
+                                    <td class='table-center_td'>
+                                        <label></label>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Fournisseur" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineSupplWork3"
+                                            name='addLineSupplWork3'>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Travaux et Aménagements"
+                                            minlength="1" maxlength="20" type="text" class="input-full"
+                                            id="addLinePostWork3" name='addLinePostWork3'>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Estimation XPF" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineEstWork3"
+                                            name='addLineEstWork3'>
+                                    </td>
+                                    <td><input type="button" value="Ajouter une ligne" id="boutonajouterUneLigneWork3">
+                                        <input type="button" value="Supprimer" id="boutonSuppLigneWork3">
+                                </tr>
+                                <tr style="display: none;" class="addWork4">
+                                    <td class='table-center_td'>
+                                        <label></label>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Fournisseur" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineSupplWork4"
+                                            name='addLineSupplWork4'>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Travaux et Aménagements"
+                                            minlength="1" maxlength="20" type="text" class="input-full"
+                                            id="addLinePostWork4" name='addLinePostWork4'>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Estimation XPF" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineEstWork4"
+                                            name='addLineEstWork4'>
+                                    </td>
+                                    <td><input type="button" value="Ajouter une ligne" id="boutonajouterUneLigneWork4">
+                                        <input type="button" value="Supprimer" id="boutonSuppLigneWork4">
+                                </tr>
+                                <tr style="display: none;" class="addWork5">
+                                    <td class='table-center_td'>
+                                        <label></label>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Fournisseur" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineSupplWork5"
+                                            name='addLineSupplWork5'>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Travaux et Aménagements"
+                                            minlength="1" maxlength="20" type="text" class="input-full"
+                                            id="addLinePostWork5" name='addLinePostWork5'>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Estimation XPF" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineEstWork5"
+                                            name='addLineEstWork5'>
+                                    </td>
+                                    <td>
+                                        <input type="button" value="Supprimer" id="boutonSuppLigneWork5">
+                                </tr>
                                 </tr>
                             </table>
                             <table class="table-center resultaPlustransport table table-bordered">
@@ -294,6 +466,86 @@
                                             id="boutonajouterUneLigneTransport" disabled>
                                     </td>
                                 </tr>
+                                                                    <!-- line add Transport Hide/Show -->
+
+                                <tr style="display: none;" class="addTransport2">
+                                    <td class='table-center_td'>
+                                        <label></label>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Fournisseur" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineSupplTransport2">
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Matériel de Transport"
+                                            minlength="1" maxlength="20" type="text" class="input-full"
+                                            id="addLinePostTransport2">
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Estimation XPF" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineEstTransport2">
+                                    </td>
+                                    <td>
+                                        <input type="button" value="Ajouter une ligne" id="boutonajouterUneLigneTransport2">
+                                        <input type="button" value="Supprimer" id="boutonSuppLigneTransport2">
+                                    </td>
+                                </tr>
+                                <tr style="display: none;" class="addTransport3">
+                                    <td class='table-center_td'>
+                                        <label></label>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Fournisseur" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineSupplTransport3"
+                                            name='addLineSupplTransport3'>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Matériel de Transport"
+                                            minlength="1" maxlength="20" type="text" class="input-full"
+                                            id="addLinePostTransport3" name='addLinePostTransport3'>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Estimation XPF" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineEstTransport3"
+                                            name='addLineEstTransport3'>
+                                    </td>
+                                    <td><input type="button" value="Ajouter une ligne" id="boutonajouterUneLigneTransport3">
+                                        <input type="button" value="Supprimer" id="boutonSuppLigneTransport3">
+                                </tr>
+                                <tr style="display: none;" class="addTransport4">
+                                    <td class='table-center_td'>
+                                        <label></label>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Fournisseur" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineSupplTransport4"
+                                            name='addLineSupplTransport4'>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Matériel de Transport"
+                                            minlength="1" maxlength="20" type="text" class="input-full"
+                                            id="addLinePostTransport4" name='addLinePostTransport4'>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Estimation XPF" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineEstTransport4"
+                                            name='addLineEstTransport4'>
+                                    </td>
+                                    <td><input type="button" value="Ajouter une ligne" id="boutonajouterUneLigneTransport4">
+                                        <input type="button" value="Supprimer" id="boutonSuppLigneTransport4">
+                                </tr>
+                                <tr style="display: none;" class="addTransport5">
+                                    <td class='table-center_td'>
+                                        <label></label>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Fournisseur" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineSupplTransport5"
+                                            name='addLineSupplTransport5'>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Matériel de Transport"
+                                            minlength="1" maxlength="20" type="text" class="input-full"
+                                            id="addLinePostTransport5" name='addLinePostTransport5'>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Estimation XPF" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineEstTransport5"
+                                            name='addLineEstTransport5'>
+                                    </td>
+                                    <td>
+                                        <input type="button" value="Supprimer" id="boutonSuppLigneTransport5">
+                                </tr>
+                                </tr>
+
                             </table>
                             <table class="table-center resultaPlusOffice table table-bordered">
                                 <tr>
@@ -328,6 +580,88 @@
                                             id="boutonajouterUneLigneOffice" disabled>
                                     </td>
                                 </tr>
+
+                                                                    <!-- line add Office Hide/Show -->
+
+                                <tr style="display: none;" class="addOffice2">
+                                    <td class='table-center_td'>
+                                        <label></label>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Fournisseur" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineSupplOffice2">
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Matériel de Bureau"
+                                            minlength="1" maxlength="20" type="text" class="input-full"
+                                            id="addLinePostOffice2">
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Estimation XPF" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineEstOffice2">
+                                    </td>
+                                    <td>
+                                        <input type="button" value="Ajouter une ligne" id="boutonajouterUneLigneOffice2">
+                                        <input type="button" value="Supprimer" id="boutonSuppLigneOffice2">
+                                    </td>
+                                </tr>
+                                <tr style="display: none;" class="addOffice3">
+                                    <td class='table-center_td'>
+                                        <label></label>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Fournisseur" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineSupplOffice3"
+                                            name='addLineSupplOffice3'>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Matériel de Bureau"
+                                            minlength="1" maxlength="20" type="text" class="input-full"
+                                            id="addLinePostOffice3" name='addLinePostOffice3'>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Estimation XPF" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineEstOffice3"
+                                            name='addLineEstOffice3'>
+                                    </td>
+                                    <td><input type="button" value="Ajouter une ligne" id="boutonajouterUneLigneOffice3">
+                                        <input type="button" value="Supprimer" id="boutonSuppLigneOffice3">
+                                </tr>
+                                <tr style="display: none;" class="addOffice4">
+                                    <td class='table-center_td'>
+                                        <label></label>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Fournisseur" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineSupplOffice4"
+                                            name='addLineSupplOffice4'>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Matériel de Bureau"
+                                            minlength="1" maxlength="20" type="text" class="input-full"
+                                            id="addLinePostOffice4" name='addLinePostOffice4'>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Estimation XPF" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineEstOffice4"
+                                            name='addLineEstOffice4'>
+                                    </td>
+                                    <td><input type="button" value="Ajouter une ligne" id="boutonajouterUneLigneOffice4">
+                                        <input type="button" value="Supprimer" id="boutonSuppLigneOffice4">
+                                </tr>
+                                <tr style="display: none;" class="addOffice5">
+                                    <td class='table-center_td'>
+                                        <label></label>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Fournisseur" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineSupplOffice5"
+                                            name='addLineSupplOffice5'>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Matériel de Bureau"
+                                            minlength="1" maxlength="20" type="text" class="input-full"
+                                            id="addLinePostOffice5" name='addLinePostOffice5'>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Estimation XPF" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineEstOffice5"
+                                            name='addLineEstOffice5'>
+                                    </td>
+                                    <td>
+                                        <input type="button" value="Supprimer" id="boutonSuppLigneOffice5">
+                                </tr>
+                                </tr>
+
+
                             </table>
 
                             <table class="table-center resultaPlusFurniture table table-bordered">
@@ -363,7 +697,89 @@
                                             id="boutonajouterUneLigneFurniture" disabled>
                                     </td>
                                 </tr>
-                            </table>                                                        
+
+                                                                    <!-- line add furniture Hide/Show -->
+
+                                <tr style="display: none;" class="addFurniture2">
+                                    <td class='table-center_td'>
+                                        <label></label>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Fournisseur" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineSupplFurniture2">
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Mobilier"
+                                            minlength="1" maxlength="20" type="text" class="input-full"
+                                            id="addLinePostFurniture2">
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Estimation XPF" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineEstFurniture2">
+                                    </td>
+                                    <td>
+                                        <input type="button" value="Ajouter une ligne" id="boutonajouterUneLigneFurniture2">
+                                        <input type="button" value="Supprimer" id="boutonSuppLigneFurniture2">
+                                    </td>
+                                </tr>
+                                <tr style="display: none;" class="addFurniture3">
+                                    <td class='table-center_td'>
+                                        <label></label>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Fournisseur" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineSupplFurniture3"
+                                            name='addLineSupplFurniture3'>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Mobilier"
+                                            minlength="1" maxlength="20" type="text" class="input-full"
+                                            id="addLinePostFurniture3" name='addLinePostFurniture3'>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Estimation XPF" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineEstFurniture3"
+                                            name='addLineEstFurniture3'>
+                                    </td>
+                                    <td><input type="button" value="Ajouter une ligne" id="boutonajouterUneLigneFurniture3">
+                                        <input type="button" value="Supprimer" id="boutonSuppLigneFurniture3">
+                                </tr>
+                                <tr style="display: none;" class="addFurniture4">
+                                    <td class='table-center_td'>
+                                        <label></label>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Fournisseur" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineSupplFurniture4"
+                                            name='addLineSupplFurniture4'>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Mobilier"
+                                            minlength="1" maxlength="20" type="text" class="input-full"
+                                            id="addLinePostFurniture4" name='addLinePostFurniture4'>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Estimation XPF" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineEstFurniture4"
+                                            name='addLineEstFurniture4'>
+                                    </td>
+                                    <td><input type="button" value="Ajouter une ligne" id="boutonajouterUneLigneFurniture4">
+                                        <input type="button" value="Supprimer" id="boutonSuppLigneFurniture4">
+                                </tr>
+                                <tr style="display: none;" class="addFurniture5">
+                                    <td class='table-center_td'>
+                                        <label></label>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Fournisseur" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineSupplFurniture5"
+                                            name='addLineSupplFurniture5'>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Mobilier"
+                                            minlength="1" maxlength="20" type="text" class="input-full"
+                                            id="addLinePostFurniture5" name='addLinePostFurniture5'>
+                                    </td>
+                                    <td class='table-center_td'><input placeholder="Estimation XPF" minlength="1"
+                                            maxlength="20" type="text" class="input-full" id="addLineEstFurniture5"
+                                            name='addLineEstFurniture5'>
+                                    </td>
+                                    <td>
+                                        <input type="button" value="Supprimer" id="boutonSuppLigneFurniture5">
+                                </tr>
+                                </tr>
+
+
+                            </table>
                             <!-- Table 2 -->
                             <table class="table-center table table-bordered">
                                 <tr>
@@ -371,13 +787,13 @@
                                     <th>ID :</th>
                                     <th class="width-table-2"></th>
                                     <th class="width-table-">SOUS-TOTAL IMMOBILISATIONS CORPORELLES</th>
-                                    <th class="table-center_th width-table-1" id="totalTableOne"> 
+                                    <th class="table-center_th width-table-1" id="totalTableOne">
                                         <div class="resultTableOne">
                                             <div class="form-inline">
                                                 <label>Quarters' Total</label>
                                                 <input type="text" class="input-mini" />
                                                 <input type="text" class="input-mini" style="display: none;" />
-                                                <input type="text" class="input-mini" style="display: none;"/>
+                                                <input type="text" class="input-mini" style="display: none;" />
                                             </div>
                                         </div>
                                     </th>
@@ -391,7 +807,8 @@
                                     <td class="table-center_td ">Logiciels Informatique</td>
                                     <td class="table-center_td desableLabelXlprog">200 000 XPF</td>
                                     <td class="table-center_td">
-                                    <input type="checkbox" id="ie_conserve_prog" name="ie_conserve_prog" value="xlprogCheck">
+                                        <input type="checkbox" id="ie_conserve_prog" name="ie_conserve_prog"
+                                            value="xlprogCheck">
                                     </td>
                                 </tr>
                                 <tr>
@@ -411,10 +828,11 @@
                                     <td class="table-center_td"> <label>Coutume</label></td>
                                     <td class="table-center_td"> <label>Estimation du don en nature</label></td>
                                     <td class="table-center_td"> <input type="text" id="ie_total_coutume"
-                                            class="input-full desableCoutume txt input-mini" name="ie_total_coutume" value="0"
-                                            disabled></td>
+                                            class="input-full desableCoutume txt input-mini" name="ie_total_coutume"
+                                            value="0" disabled></td>
                                     <td class="table-center_td">
-                                        <input type="checkbox" id="ie_conserve_coutume" name="ie_conserve_coutume" value="">
+                                        <input type="checkbox" id="ie_conserve_coutume" name="ie_conserve_coutume"
+                                            value="">
                                     </td>
                                 </tr>
                             </table>
@@ -427,9 +845,9 @@
                                         <div class="resultTableTwo">
                                             <div class="form-inline">
                                                 <label>Quarters' Total</label>
-                                                <input type="text" class="input-mini" style="display: none;"/>
-                                                <input type="text" class="input-mini"/>
-                                                <input type="text" class="input-mini" style="display: none;"/>
+                                                <input type="text" class="input-mini" style="display: none;" />
+                                                <input type="text" class="input-mini" />
+                                                <input type="text" class="input-mini" style="display: none;" />
                                             </div>
                                         </div>
                                     </th>
@@ -473,7 +891,7 @@
                                         <div class="resultTablethree">
                                             <div class="form-inline">
                                                 <label>Quarters' Total</label>
-                                                <input type="text" class="input-mini"  style="display: none;"/>
+                                                <input type="text" class="input-mini" style="display: none;" />
                                                 <input type="text" class="input-mini" style="display: none;" />
                                                 <input type="text" class="input-mini" />
                                             </div>
@@ -489,8 +907,9 @@
                                     <td class="table-center_td "> <label>STOCK</label></td>
                                     <td class="table-center_td "><label></label></td>
                                     <td class="table-center_td ">
-                                        <input type="text" id="ie_total_stock" class="input-full desableStock txt input-mini"
-                                            name="ie_total_stock" value="0" disabled>
+                                        <input type="text" id="ie_total_stock"
+                                            class="input-full desableStock txt input-mini" name="ie_total_stock"
+                                            value="0" disabled>
                                     </td>
                                     <td class="table-center_td ">
                                         <input type="checkbox" id="ie_conserve_stock" name="ie_conserve_stock"
@@ -504,34 +923,36 @@
                                     <td class="table-center_td "> <label>Trésorerie de départ</label></td>
                                     <td class="table-center_td "><label></label></td>
                                     <td class="table-center_td "><input type=" text" id="ie_total_tresorerie"
-                                            class="input-full desableTresor txt input-mini" name="ie_total_tresorerie" value="0"
-                                            disabled></td>
+                                            class="input-full desableTresor txt input-mini" name="ie_total_tresorerie"
+                                            value="0" disabled></td>
                                     <td class="table-center_td "><input type="checkbox" id="ie_conserve_tresorerie"
                                             name="ie_conserve_tresorerie" class="input-full" value="tresorCheck">
                                     </td>
                                 </tr>
                             </table>
-                        <!-- totaux -->
-                        <div style="display: flex;">
-                            <div class="placementDiv" style="width: 80%;"></div>
-                        <table class="table-center table table-bordered" style="width: 20%;">
-                            <tr>
-                                <th style="text-align: end;">
-                                <label >Total
-</label>
-                            </th>
-                            </tr>
-                            <tr>
-                                <td><div class="span5">
-                                <div class="form-inline" >
-                                <input id="sum" type="text" class="input-medium" />
-                                 </div>
-                            </div></td>
-                            </tr>
-                        </table>
-                    </div>
-                        
-                            
+                            <!-- totaux -->
+                            <div style="display: flex;">
+                                <div class="placementDiv" style="width: 80%;"></div>
+                                <table class="table-center table table-bordered" style="width: 20%;">
+                                    <tr>
+                                        <th style="text-align: end;">
+                                            <label>Total
+                                            </label>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="span5">
+                                                <div class="form-inline">
+                                                    <input id="sum" type="text" class="input-medium" />
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+
+
                             <h2 class="text-center">RAJOUT DE LIGNE</h2>
                             <!-- <table class="table-center resultaPlus " id="resultaPlusT">
                                 <tr>
@@ -547,25 +968,25 @@
                         <div class="submitbottom">
                             <input id="submit" type="submit" value="Submit" class="submitClasse">
                         </div>
-        </div>
-            </div>
-
-                    </form>
-
-
-                    <!-- checkbox-->
-                    <div class="blockcaseacocher">
-                        <button onclick="disable()">Accepter</button>
-                        <button onclick="undisable()">Bare toi</button>
-                        <p>J'accepte et comprend que iaai events utilse ces s'information à des but d'aide pour les
-                            projet qui vous appartient Elle tiens aussi à informé que l'entrprise ne vous octroie pas
-                            une place commie d'office pour obtenir celui-ci mais facilite l'optention de celui-ci </p>
-                    </div>
-                    <div class="containerlocationBlockForm"></div>
                 </div>
             </div>
-            <div class="containerlocationBlock"></div>
+
+            </form>
+
+
+            <!-- checkbox-->
+            <div class="blockcaseacocher">
+                <button onclick="disable()">Accepter</button>
+                <button onclick="undisable()">Bare toi</button>
+                <p>J'accepte et comprend que iaai events utilse ces s'information à des but d'aide pour les
+                    projet qui vous appartient Elle tiens aussi à informé que l'entrprise ne vous octroie pas
+                    une place commie d'office pour obtenir celui-ci mais facilite l'optention de celui-ci </p>
+            </div>
+            <div class="containerlocationBlockForm"></div>
         </div>
+    </div>
+    <div class="containerlocationBlock"></div>
+    </div>
     </div>
     <script>
         //Ligne du théme constrctor
@@ -574,43 +995,36 @@
                 if ($(this).prop("checked") == true) {
                     //Active un élément
                     $(".desableConstructor").prop("disabled", false);
-                    $("#boutonajouterUneLigneContructor").prop("disabled", false);
+                    $("#boutonajouterUneLigneConstructor").prop("disabled", false);
                     $("#ie_estimate_constructor").val("0");
                 } else if ($(this).prop("checked") == false) {
                     //Désactive un élément                                     
                     $(".desableConstructor").val("");
                     $(".desableConstructor").prop("disabled", true);
-                    $("#boutonajouterUneLigneContructor").prop("disabled", true);
-                     }
+                    $("#boutonajouterUneLigneConstructor").prop("disabled", true);
+                }
             });
         });
-        // $(document).ready(function(){
-        //     if($(this).prop('checked') == true){
-        //         $(".desableConstructor").
 
-
-        //     }
-
-        // });
-       $(document).ready(function(){
-            $("#boutonSuppLigneConstructor2").click(function (){
-                $(".addContructor2").hide();
-            });            
+        $(document).ready(function () {
+            $("#boutonSuppLigneConstructor2").click(function () {
+                $(".addConstructor2").hide();
+            });
         });
-         $(document).ready(function(){
-            $("#boutonSuppLigneConstructor3").click(function (){
-                $(".addContructor3").hide();
-            });            
+        $(document).ready(function () {
+            $("#boutonSuppLigneConstructor3").click(function () {
+                $(".addConstructor3").hide();
+            });
         });
-         $(document).ready(function(){
-            $("#boutonSuppLigneConstructor4").click(function (){
-                $(".addContructor4").hide();
-            });            
+        $(document).ready(function () {
+            $("#boutonSuppLigneConstructor4").click(function () {
+                $(".addConstructor4").hide();
+            });
         });
-         $(document).ready(function(){
-            $("#boutonSuppLigneConstructor5").click(function (){
-                $(".addContructor5").hide();
-            });            
+        $(document).ready(function () {
+            $("#boutonSuppLigneConstructor5").click(function () {
+                $(".addConstructor5").hide();
+            });
         });
 
 
@@ -631,6 +1045,28 @@
                 }
             });
         });
+
+        $(document).ready(function () {
+            $("#boutonSuppLigneTechnical2").click(function () {
+                $(".addTechnical2").hide();
+            });
+        });
+        $(document).ready(function () {
+            $("#boutonSuppLigneTechnical3").click(function () {
+                $(".addTechnical3").hide();
+            });
+        });
+        $(document).ready(function () {
+            $("#boutonSuppLigneTechnical4").click(function () {
+                $(".addTechnical4").hide();
+            });
+        });
+        $(document).ready(function () {
+            $("#boutonSuppLigneTechnical5").click(function () {
+                $(".addTechnical5").hide();
+            });
+        });
+
         // <!-- line works -->
         $(document).ready(function () {
             $('input[value="WorkCheck"]').click(function () {
@@ -648,6 +1084,27 @@
                 }
             });
         });
+        $(document).ready(function () {
+            $("#boutonSuppLigneWork2").click(function () {
+                $(".addWork2").hide();
+            });
+        });
+        $(document).ready(function () {
+            $("#boutonSuppLigneWork3").click(function () {
+                $(".addWork3").hide();
+            });
+        });
+        $(document).ready(function () {
+            $("#boutonSuppLigneWork4").click(function () {
+                $(".addWork4").hide();
+            });
+        });
+        $(document).ready(function () {
+            $("#boutonSuppLigneWork5").click(function () {
+                $(".addWork5").hide();
+            });
+        });
+
         // <!-- line transport -->
         $(document).ready(function () {
             $('input[value="transportCheck"]').click(function () {
@@ -664,6 +1121,27 @@
                 }
             });
         });
+        $(document).ready(function () {
+            $("#boutonSuppLigneTransport2").click(function () {
+                $(".addTransport2").hide();
+            });
+        });
+        $(document).ready(function () {
+            $("#boutonSuppLigneTransport3").click(function () {
+                $(".addTransport3").hide();
+            });
+        });
+        $(document).ready(function () {
+            $("#boutonSuppLigneTransport4").click(function () {
+                $(".addTransport4").hide();
+            });
+        });
+        $(document).ready(function () {
+            $("#boutonSuppLigneTransport5").click(function () {
+                $(".addTransport5").hide();
+            });
+        });
+
         // !--line office-- >
         $(document).ready(function () {
             $('input[value="officeCheck"]').click(function () {
@@ -672,14 +1150,60 @@
                     $("#ie_estimate_office").val("0");
                     $(".desableOffice").prop("disabled", false);
                     $("#boutonajouterUneLigneOffice").prop("disabled", false);
+                    
+
                 } else if ($(this).prop("checked") == false) {
                     //Désactive un élément
                     $(".desableOffice").val("");
                     $(".desableOffice").prop("disabled", true);
                     $("#boutonajouterUneLigneOffice").prop("disabled", true);
+                    $(".addOffice2").hide();
+                    $(".addOffice3").hide();
+                    $(".addOffice4").hide();
+                    $(".addOffice5").hide();
+                    
+                    $("#boutonajouterUneLigneOffice2").prop("disabled", false);
+                    $("#boutonSuppLigneOffice2").prop("disabled", false);
+                    
+                    $("#boutonajouterUneLigneOffice3").prop("disabled", false);
+                    $("#boutonSuppLigneOffice3").prop("disabled", false);
+
+                    $("#boutonajouterUneLigneOffice4").prop("disabled", false);
+                    $("#boutonSuppLigneOffice4").prop("disabled", false);
+
+                    $("#boutonajouterUneLigneOffice4").prop("disabled", false);
+                    $("#boutonSuppLigneOffice4").prop("disabled", false);
                 }
             });
         });
+        $(document).ready(function () {
+            $("#boutonSuppLigneOffice2").click(function () {
+                $(".addOffice2").hide();                
+                $("#boutonajouterUneLigneOffice").prop("disabled", false);
+            });
+        });
+        $(document).ready(function () {
+            $("#boutonSuppLigneOffice3").click(function () {
+                $(".addOffice3").hide();
+                $("#boutonajouterUneLigneOffice2").prop("disabled", false);
+                $("#boutonSuppLigneOffice2").prop("disabled", false);
+            });
+        });
+        $(document).ready(function () {
+            $("#boutonSuppLigneOffice4").click(function () {
+                $(".addOffice4").hide();
+                $("#boutonajouterUneLigneOffice3").prop("disabled", false);
+                $("#boutonSuppLigneOffice3").prop("disabled", false);
+            });
+        });
+        $(document).ready(function () {
+            $("#boutonSuppLigneOffice5").click(function () {
+                $(".addOffice5").hide();
+                $("#boutonajouterUneLigneOffice4").prop("disabled", false);
+                $("#boutonSuppLigneOffice4").prop("disabled", false);
+            });
+        });
+
         // line furniture -->
         $(document).ready(function () {
             $('input[value="furnitureCheck"]').click(function () {
@@ -696,6 +1220,27 @@
                 }
             });
         });
+        $(document).ready(function () {
+            $("#boutonSuppLigneFurniture2").click(function () {
+                $(".addFurniture2").hide();
+            });
+        });
+        $(document).ready(function () {
+            $("#boutonSuppLigneFurniture3").click(function () {
+                $(".addFurniture3").hide();
+            });
+        });
+        $(document).ready(function () {
+            $("#boutonSuppLigneFurniture4").click(function () {
+                $(".addFurniture4").hide();
+            });
+        });
+        $(document).ready(function () {
+            $("#boutonSuppLigneFurniture5").click(function () {
+                $(".addFurniture5").hide();
+            });
+        });
+
         // line xlprogCheck -->
         $(document).ready(function () {
             $('input[id="ie_conserve_prog"]').click(function () {
@@ -804,131 +1349,265 @@
                 }
             });
         });
+
         // !--Ligne suplémentaire Constructor-- >
         $(document).ready(function () {
-            $(".addContructor").click(function () {
-                $(".addContructor2").show();
+            $(".addConstructor").click(function () {
+                $(".addConstructor2").show();
             });
         });
-        $(document).ready(function(){
-            $("#boutonajouterUneLigneContructor2").click(function (){
-                $(".addContructor3").show();
+        $(document).ready(function () {
+            $("#boutonajouterUneLigneConstructor2").click(function () {
+                $(".addConstructor3").show();
 
             });
         });
-          $(document).ready(function(){
-            $("#boutonajouterUneLigneContructor3").click(function (){
-                $(".addContructor4").show();
+        $(document).ready(function () {
+            $("#boutonajouterUneLigneConstructor3").click(function () {
+                $(".addConstructor4").show();
 
             });
         });
-          $(document).ready(function(){
-            $("#boutonajouterUneLigneContructor4").click(function (){
-                $(".addContructor5").show();
+        $(document).ready(function () {
+            $("#boutonajouterUneLigneConstructor4").click(function () {
+                $(".addConstructor5").show();
 
             });
         });
-        
-        // !--Ligne suplémentaire Constructor-- >
+
+        // !--Ligne suplémentaire Technical-- >
         $(document).ready(function () {
             $(".addTechnical").click(function () {
-                let suppliers = $("#ie_suppliers_technical").val();
-                let post = $("#ie_post_technical").val();
-                let estimate = $("#ie_estimate_technical").val();
-                let ligne =
-                    "<tr><td class='table-center_td'><input type='checkbox' name='select'><label>Identifiant 2:</label></td><td class='table-center_td'> " +
-                    suppliers + "</td><td class='table-center_td'> " + post +
-                    "</td><td class='table-center_td'>" + estimate + " </td></tr>";
-                $("table.resultaPlusTechnical").append(ligne);
-            });
-            $(".delete").click(function () {
-                $("table.resultaPlusTechnical").find('input[name="select"]').each(function () {
-                    if ($(this).is(":checked")) {
-                        $(this).parents("table.resultaPlusTechnical tr").remove();
-                    }
-                });
+                $(".addTechnical2").show();
             });
         });
+        $(document).ready(function () {
+            $("#boutonajouterUneLigneTechnical2").click(function () {
+                $(".addTechnical3").show();
+
+            });
+        });
+        $(document).ready(function () {
+            $("#boutonajouterUneLigneTechnical3").click(function () {
+                $(".addTechnical4").show();
+
+            });
+        });
+        $(document).ready(function () {
+            $("#boutonajouterUneLigneTechnical4").click(function () {
+                $(".addTechnical5").show();
+
+            });
+        });
+
+        // $(document).ready(function () {
+        //     $(".addTechnical").click(function () {
+        //         let suppliers = $("#ie_suppliers_technical").val();
+        //         let post = $("#ie_post_technical").val();
+        //         let estimate = $("#ie_estimate_technical").val();
+        //         let ligne =
+        //             "<tr><td class='table-center_td'><input type='checkbox' name='select'><label>Identifiant 2:</label></td><td class='table-center_td'> " +
+        //             suppliers + "</td><td class='table-center_td'> " + post +
+        //             "</td><td class='table-center_td'>" + estimate + " </td></tr>";
+        //         $("table.resultaPlusTechnical").append(ligne);
+        //     });
+        //     $(".delete").click(function () {
+        //         $("table.resultaPlusTechnical").find('input[name="select"]').each(function () {
+        //             if ($(this).is(":checked")) {
+        //                 $(this).parents("table.resultaPlusTechnical tr").remove();
+        //             }
+        //         });
+        //     });
+        // });
         // !--Ligne suplémentaire Works-- >
+
         $(document).ready(function () {
             $(".addWork").click(function () {
-                let suppliers = $("#ie_suppliers_work").val();
-                let post = $("#ie_post_work").val();
-                let estimate = $("#ie_estimate_work").val();
-                let ligne =
-                    "<tr><td class='table-center_td'><input type='checkbox' name='select'><label>Identifiant 3:</label></td><td class='table-center_td'> " +
-                    suppliers + "</td><td class='table-center_td'> " + post +
-                    "</td><td class='table-center_td'>" + estimate + " </td></tr>";
-                $("table.resultaPlusWork").append(ligne);
-            });
-            $(".delete").click(function () {
-                $("table.resultaPlusWork").find('input[name="select"]').each(function () {
-                    if ($(this).is(":checked")) {
-                        $(this).parents("table.resultaPlusWork tr").remove();
-                    }
-                });
+                $(".addWork2").show();
             });
         });
+        $(document).ready(function () {
+            $("#boutonajouterUneLigneWork2").click(function () {
+                $(".addWork3").show();
+
+            });
+        });
+        $(document).ready(function () {
+            $("#boutonajouterUneLigneWork3").click(function () {
+                $(".addWork4").show();
+
+            });
+        });
+        $(document).ready(function () {
+            $("#boutonajouterUneLigneWork4").click(function () {
+                $(".addWork5").show();
+
+            });
+        });
+
+        // $(document).ready(function () {
+        //     $(".addWork").click(function () {
+        //         let suppliers = $("#ie_suppliers_work").val();
+        //         let post = $("#ie_post_work").val();
+        //         let estimate = $("#ie_estimate_work").val();
+        //         let ligne =
+        //             "<tr><td class='table-center_td'><input type='checkbox' name='select'><label>Identifiant 3:</label></td><td class='table-center_td'> " +
+        //             suppliers + "</td><td class='table-center_td'> " + post +
+        //             "</td><td class='table-center_td'>" + estimate + " </td></tr>";
+        //         $("table.resultaPlusWork").append(ligne);
+        //     });
+        //     $(".delete").click(function () {
+        //         $("table.resultaPlusWork").find('input[name="select"]').each(function () {
+        //             if ($(this).is(":checked")) {
+        //                 $(this).parents("table.resultaPlusWork tr").remove();
+        //             }
+        //         });
+        //     });
+        // });
         // !--Ligne suplémentaire Transport-- >
+
         $(document).ready(function () {
             $(".addTransport").click(function () {
-                let suppliers = $("#ie_suppliers_transport").val();
-                let post = $("#ie_post_transport").val();
-                let estimate = $("#ie_estimate_transport").val();
-                let ligne =
-                    "<tr><td class='table-center_td'><input type='checkbox' name='select'><label>Identifiant 4:</label></td><td class='table-center_td'> " +
-                    suppliers + "</td><td class='table-center_td'> " + post +
-                    "</td><td class='table-center_td'>" + estimate + " </td></tr>";
-                $("table.resultaPlustransport").append(ligne);
-            });
-            $(".delete").click(function () {
-                $("table.resultaPlustransport").find('input[name="select"]').each(function () {
-                    if ($(this).is(":checked")) {
-                        $(this).parents("table.resultaPlustransport tr").remove();
-                    }
-                });
+                $(".addTransport2").show();
             });
         });
+        $(document).ready(function () {
+            $("#boutonajouterUneLigneTransport2").click(function () {
+                $(".addTransport3").show();
+
+            });
+        });
+        $(document).ready(function () {
+            $("#boutonajouterUneLigneTransport3").click(function () {
+                $(".addTransport4").show();
+
+            });
+        });
+        $(document).ready(function () {
+            $("#boutonajouterUneLigneTransport4").click(function () {
+                $(".addTransport5").show();
+
+            });
+        });
+
+
+        // $(document).ready(function () {
+        //     $(".addTransport").click(function () {
+        //         let suppliers = $("#ie_suppliers_transport").val();
+        //         let post = $("#ie_post_transport").val();
+        //         let estimate = $("#ie_estimate_transport").val();
+        //         let ligne =
+        //             "<tr><td class='table-center_td'><input type='checkbox' name='select'><label>Identifiant 4:</label></td><td class='table-center_td'> " +
+        //             suppliers + "</td><td class='table-center_td'> " + post +
+        //             "</td><td class='table-center_td'>" + estimate + " </td></tr>";
+        //         $("table.resultaPlustransport").append(ligne);
+        //     });
+        //     $(".delete").click(function () {
+        //         $("table.resultaPlustransport").find('input[name="select"]').each(function () {
+        //             if ($(this).is(":checked")) {
+        //                 $(this).parents("table.resultaPlustransport tr").remove();
+        //             }
+        //         });
+        //     });
+        // });
+
         // !--Ligne suplémentaire Office-- >
-                $(document).ready(function () {
-            $(".addOffice").click(function () {
-                let suppliers = $("#ie_suppliers_office").val();
-                let post = $("#ie_post_office").val();
-                let estimate = $("#ie_estimate_office").val();
-                let ligne =
-                    "<tr><td class='table-center_td'><input type='checkbox' name='select'><label>Identifiant 5:</label></td><td class='table-center_td'> " +
-                    suppliers + "</td><td class='table-center_td'> " + post +
-                    "</td><td class='table-center_td'>" + estimate + " </td></tr>";
-                $("table.resultaPlusOffice").append(ligne);
-            });
-            $(".delete").click(function () {
-                $("table.resultaPlusOffice").find('input[name="select"]').each(function () {
-                    if ($(this).is(":checked")) {
-                        $(this).parents("table.resultaPlusOffice tr").remove();
-                    }
-                });
+
+        $(document).ready(function () {
+            $("#boutonajouterUneLigneOffice").click(function () {
+                $(".addOffice2").show();
+                $('#boutonajouterUneLigneOffice').prop("disabled", true);
             });
         });
+        $(document).ready(function () {
+            $("#boutonajouterUneLigneOffice2").click(function () {
+                $(".addOffice3").show();
+                $("#boutonSuppLigneOffice2").prop("disabled", true);
+                $("#boutonajouterUneLigneOffice2").prop("disabled", true);
+            });
+        });
+        $(document).ready(function () {
+            $("#boutonajouterUneLigneOffice3").click(function () {
+                $(".addOffice4").show();                
+                $("#boutonSuppLigneOffice3").prop("disabled", true);
+                $("#boutonajouterUneLigneOffice3").prop("disabled", true);
+            });
+        });
+        $(document).ready(function () {
+            $("#boutonajouterUneLigneOffice4").click(function () {
+                $(".addOffice5").show();
+                $("#boutonSuppLigneOffice4").prop("disabled", true);
+                $("#boutonajouterUneLigneOffice4").prop("disabled", true);
+            });
+        });
+
+
+        // $(document).ready(function () {
+        //     $(".addOffice").click(function () {
+        //         let suppliers = $("#ie_suppliers_office").val();
+        //         let post = $("#ie_post_office").val();
+        //         let estimate = $("#ie_estimate_office").val();
+        //         let ligne =
+        //             "<tr><td class='table-center_td'><input type='checkbox' name='select'><label>Identifiant 5:</label></td><td class='table-center_td'> " +
+        //             suppliers + "</td><td class='table-center_td'> " + post +
+        //             "</td><td class='table-center_td'>" + estimate + " </td></tr>";
+        //         $("table.resultaPlusOffice").append(ligne);
+        //     });
+        //     $(".delete").click(function () {
+        //         $("table.resultaPlusOffice").find('input[name="select"]').each(function () {
+        //             if ($(this).is(":checked")) {
+        //                 $(this).parents("table.resultaPlusOffice tr").remove();
+        //             }
+        //         });
+        //     });
+        // });
+
         // !--Ligne suplémentaire Furniture-- >
+
         $(document).ready(function () {
             $(".addFurniture").click(function () {
-                let suppliers = $("#ie_suppliers_furniture").val();
-                let post = $("#ie_post_furniture").val();
-                let estimate = $("#ie_estimate_furniture").val();
-                let ligne =
-                    "<tr><td class='table-center_td'><input type='checkbox' name='select'><label>Identifiant 6:</label></td><td class='table-center_td'> " +
-                    suppliers + "</td><td class='table-center_td'> " + post +
-                    "</td><td class='table-center_td'>" + estimate + " </td></tr>";
-                $("table.resultaPlusFurniture").append(ligne);
-            });
-            $(".delete").click(function () {
-                $("table.resultaPlusFurniture").find('input[name="select"]').each(function () {
-                    if ($(this).is(":checked")) {
-                        $(this).parents("table.resultaPlusFurniture tr").remove();
-                    }
-                });
+                $(".addFurniture2").show();
             });
         });
+        $(document).ready(function () {
+            $("#boutonajouterUneLigneFurniture2").click(function () {
+                $(".addFurniture3").show();
+
+            });
+        });
+        $(document).ready(function () {
+            $("#boutonajouterUneLigneFurniture3").click(function () {
+                $(".addFurniture4").show();
+
+            });
+        });
+        $(document).ready(function () {
+            $("#boutonajouterUneLigneFurniture4").click(function () {
+                $(".addFurniture5").show();
+
+            });
+        });
+
+
+        // $(document).ready(function () {
+        //     $(".addFurniture").click(function () {
+        //         let suppliers = $("#ie_suppliers_furniture").val();
+        //         let post = $("#ie_post_furniture").val();
+        //         let estimate = $("#ie_estimate_furniture").val();
+        //         let ligne =
+        //             "<tr><td class='table-center_td'><input type='checkbox' name='select'><label>Identifiant 6:</label></td><td class='table-center_td'> " +
+        //             suppliers + "</td><td class='table-center_td'> " + post +
+        //             "</td><td class='table-center_td'>" + estimate + " </td></tr>";
+        //         $("table.resultaPlusFurniture").append(ligne);
+        //     });
+        //     $(".delete").click(function () {
+        //         $("table.resultaPlusFurniture").find('input[name="select"]').each(function () {
+        //             if ($(this).is(":checked")) {
+        //                 $(this).parents("table.resultaPlusFurniture tr").remove();
+        //             }
+        //         });
+        //     });
+        // });
 
         // $(document).ready(function() {
         //     let totalConstructor = parseInt($('#ie_estimate_constructor').val());
@@ -951,32 +1630,33 @@
                 });
             });
         });
+
         function calculateSum() {
-            var sum = 0;            
-                // parcourir chaque zone de texte et ajouter les valeurs
+            var sum = 0;
+            // parcourir chaque zone de texte et ajouter les valeurs
             $(".txt").each(function () {
                 // ajouter uniquement si la valeur est un nombre
                 if (!isNaN(this.value) && this.value.length != 0) {
                     sum += parseFloat(this.value);
                 }
-            });            
+            });
             var sumQ = [];
-            for (var i=1; i<=3; i++) {
+            for (var i = 1; i <= 3; i++) {
                 sumQ[i] = 0;
-                $('td:nth-child('+(i+1+1+1)+')').find(".txt").each(function () {
+                $('td:nth-child(' + (i + 1 + 1 + 1) + ')').find(".txt").each(function () {
                     if (!isNaN(this.value) && this.value.length != 0) {
                         sumQ[i] += parseFloat(this.value);
                     }
                 });
-                $(".resultTableOne").find('input').eq(i-1).val(sumQ[i].toFixed(0));
-                $(".resultTableTwo").find('input').eq(i-1).val(sumQ[i].toFixed(0));                
-                $(".resultTablethree").find('input').eq(i-1).val(sumQ[i].toFixed(0));
+                $(".resultTableOne").find('input').eq(i - 1).val(sumQ[i].toFixed(0));
+                $(".resultTableTwo").find('input').eq(i - 1).val(sumQ[i].toFixed(0));
+                $(".resultTablethree").find('input').eq(i - 1).val(sumQ[i].toFixed(0));
             }
-           
-                // La méthode toFixed () arrondira la somme finale à 2 décimales
+
+            // La méthode toFixed () arrondira la somme finale à 2 décimales
             $("#sum").val(sum.toFixed(0));
         }
-</script>
+    </script>
 </body>
 
 </html>
